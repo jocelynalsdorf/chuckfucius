@@ -9,7 +9,7 @@ $(document).ready(function(){
       var items = [];
       $.each (data, function( key, val){
         items.push(data);
-        $(".quote-text").html('<p>' + data.value.joke + '</p>');
+        $(".quote-text").html('<p class="quote">' + data.value.joke + '</p>');
       });
      
 

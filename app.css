@@ -32,7 +32,7 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -41,8 +41,8 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -55,7 +55,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 25px;
 }
 
 
@@ -125,6 +125,7 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  margin-bottom: 30px;
 }
 
 
@@ -160,4 +161,19 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+/*---------my changes ------*/
+.chuck {
+  padding-top: 7px;
+  height: 90%;
+}
+.quote {
+  font-size:20px;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+}
+h1.cover-heading {
+  margin-top:3px;
+  font-size:32px;
 }
